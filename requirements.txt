@@ -7,3 +7,4 @@ langchain-openai==0.0.2
 langchain
 streamlit
 PyMuPDF
+python-dotenv
