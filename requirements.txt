@@ -1,0 +1,9 @@
+azure-functions
+azure-identity
+azure-storage-blob
+azure-search-documents
+openai==1.8.0
+langchain-openai==0.0.2
+langchain
+streamlit
+PyMuPDF
