@@ -1,6 +1,11 @@
+# folders
 .env/
 data/
+
+# py files
 config.py
 backend/config.py
+
+# other file types
 *.pyc
 *.pdf
