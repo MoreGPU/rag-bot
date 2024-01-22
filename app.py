@@ -1,10 +1,12 @@
+import os
 import json
+import argparse
 import streamlit as st
 
 #############################################
 # configure document
 #############################################
-st.set_option('server.enableCORS', True)
+st.markdown("THIS IS A TEST")
 st.markdown("# Hello Greg and/or Maziar!")
 st.markdown("\n\n\n")
 st.markdown("## Welcome to RAGbot")
@@ -59,20 +61,21 @@ model = RAGBot(
 #############################################
 # run model
 #############################################
-if st.button("Submit"):
-    st.write("Waiting for response...")
-    response, memory = model(query=user_input)
-    
-    st.markdown("### Model response:")   
-    st.write(response)
-    st.write("\n\n\n")
-    
-    st.markdown("### Context used:")
-    context_dicts = model.context_dicts
-    pretty_json = json.dumps(context_dicts, indent=4)
-    st.json(pretty_json)
-    
-    st.markdown("### API messages:")
-    st.markdown("(Memory not yet implemented)")
-    pretty_json = json.dumps(memory, indent=4)
-    st.json(pretty_json)
+if __name__ == "__main__":
+    if st.button("Submit"):
+        st.write("Waiting for response...")
+        response, memory = model(query=user_input)
+        
+        st.markdown("### Model response:")   
+        st.write(response)
+        st.write("\n\n\n")
+        
+        st.markdown("### Context used:")
+        context_dicts = model.context_dicts
+        pretty_json = json.dumps(context_dicts, indent=4)
+        st.json(pretty_json)
+        
+        st.markdown("### API messages:")
+        st.markdown("(Memory not yet implemented)")
+        pretty_json = json.dumps(memory, indent=4)
+        st.json(pretty_json)

@@ -13,3 +13,4 @@ backend/config.local.py
 # file types
 *.pyc
 *.pdf
+*.json
