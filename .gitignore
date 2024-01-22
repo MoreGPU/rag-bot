@@ -1,11 +1,15 @@
 # folders
-.env/
-data/
+.conda/
+__pycache__/
+backend/__pycache__/
+utils/__pycache__/
 
-# py files
-config.py
-backend/config.py
 
-# other file types
+# files
+backend/config.local.py
+.env
+.DS_Store
+
+# file types
 *.pyc
 *.pdf
