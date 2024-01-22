@@ -1,5 +1,5 @@
 from typing import List, Iterable 
-from openai_utils import Embedder
+from .openai_utils import Embedder
 from azure.search.documents import SearchClient
 from azure.storage.blob import BlobServiceClient
 from azure.core.credentials import AzureKeyCredential
