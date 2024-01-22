@@ -14,3 +14,4 @@ backend/config.local.py
 *.pyc
 *.pdf
 *.json
+

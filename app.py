@@ -6,8 +6,7 @@ import streamlit as st
 #############################################
 # configure document
 #############################################
-st.markdown("THIS IS A TEST")
-st.markdown("# Hello Greg and/or Maziar!")
+st.markdown("# Hello Greg and/or Maziar and/or whoever!")
 st.markdown("\n\n\n")
 st.markdown("## Welcome to RAGbot")
 st.markdown("RAGbot is a RAG based QA chatbot that uses GPT-3.5-turbo and Azure AI Search to answer user inquiries on the following document: \n\n\n")
