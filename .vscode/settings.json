@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/c9cf1ebf-0da2-4138-af97-6ae117fa191d/resourceGroups/rg-AzureSubscription1-EastUS-001/providers/Microsoft.Web/sites/mrf-moregpu-ragbot-webapp-001",
+    "appService.deploySubpath": "."
+}

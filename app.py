@@ -4,6 +4,7 @@ import streamlit as st
 #############################################
 # configure document
 #############################################
+st.set_option('server.enableCORS', True)
 st.markdown("# Hello Greg and/or Maziar!")
 st.markdown("\n\n\n")
 st.markdown("## Welcome to RAGbot")
