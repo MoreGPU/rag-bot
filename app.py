@@ -1,7 +1,9 @@
 import json
 import streamlit as st
 
-# configure document 
+#############################################
+# configure document
+#############################################
 st.markdown("# Hello Greg and/or Maziar!")
 st.markdown("\n\n\n")
 st.markdown("## Welcome to RAGbot")
@@ -53,6 +55,9 @@ model = RAGBot(
     openai_chat_object=openai_chat
 )
 
+#############################################
+# run model
+#############################################
 if st.button("Submit"):
     st.write("Waiting for response...")
     response, memory = model(query=user_input)
