@@ -75,6 +75,6 @@ if __name__ == "__main__":
     user_input = setup_streamlit_ui()
     model = initialize_model()
     
-    if st.button('submt'):
+    if st.button('submit'):
         st.write("Waiting for response (streaming not yet implemented)...")
         display_model_output(model, user_input)
